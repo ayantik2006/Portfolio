@@ -1,6 +1,5 @@
 const express = require("express");
 const cors = require("cors");
-const sgMail = require("@sendgrid/mail");
 const app = express();
 require("dotenv").config();
 
