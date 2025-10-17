@@ -19,7 +19,6 @@ app.listen(8080, () => {
 
 app.post("/contact-me", (req, res) => {
   const { email, name, msg } = req.body;
-  sgMail.setApiKey(process.env.SENDGRID_API_KEY);
   console.log(req.body);
   
   res.json({});
