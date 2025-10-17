@@ -20,10 +20,7 @@ app.listen(8080, () => {
 app.post("/contact-me", (req, res) => {
   const { email, name, msg } = req.body;
   sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-  const mesg = {
-    to: "ayantik.sarkar",
-    from: process.env.SENDER_EMAIL, // must be a verified sender in SendGrid
-    subject: "Forgot Password",
-  };
+  console.log(req.body);
+  
   res.json({});
 });
