@@ -36,6 +36,12 @@ function MainScreen() {
           Contact
         </a>
       </nav>
+      <div className="text-gray-400 mt-[5rem] mb-[-9rem] font-bold text-[2.5rem] ml-2">
+        {"<!DOCTYPE html>"}
+      </div>
+      <div className="text-gray-400 mt-[9rem] mb-[-9rem] font-bold text-[2.5rem] ml-15">
+        {"<body>"}
+      </div>
       <div className="flex flex-col items-center gap-[4rem] mt-[-4.5rem]">
         <div
           className="max-w-fit mx-[2rem] h-fit py-5 pr-5 bg-gray-400 mt-[10rem] rounded-lg flex gap-3 items-center hover:shadow-[0_0_15px_white] duration-300 border-4 border-white"
@@ -83,9 +89,7 @@ function MainScreen() {
             🛠️ My Skills!
           </pre>
           <div className="flex flex-wrap gap-[3rem] items-center justify-center">
-            <div className="text-gray-400 text-[6rem] mr-[-3rem]">
-              {"<"}
-            </div>
+            <div className="text-gray-400 text-[6rem] mr-[-3rem]">{"<"}</div>
             <div>
               <img
                 src="https://images.icon-icons.com/2415/PNG/512/mongodb_original_wordmark_logo_icon_146425.png"
@@ -149,9 +153,7 @@ function MainScreen() {
                 className="w-[5rem] hover:scale-[1.1] duration-300 rounded-[1rem]"
               />
             </div>
-            <div className="text-gray-400 text-[6rem] ml-[-2rem]">
-              {"/>"}
-            </div>
+            <div className="text-gray-400 text-[6rem] ml-[-2rem]">{"/>"}</div>
           </div>
         </div>
         <div className="flex flex-col justify-center items-center mx-5">
@@ -160,9 +162,7 @@ function MainScreen() {
           </pre>
           <div className="flex flex-wrap gap-[2rem] mt-6 justify-center">
             <div className="w-[15rem] h-fit bg-gray-400 rounded-2xl border-3 border-white flex flex-col justify-center items-center hover:scale-[1.04] duration-300">
-              <h1 className="p-2 text-[1.3rem] font-bold">
-                Simon Says
-              </h1>
+              <h1 className="p-2 text-[1.3rem] font-bold">Simon Says</h1>
               <img src={simonSays} alt="" className="" />
               <p className="p-2 text-center font-semibold">
                 This is a simple Simon Says game using pure HTML, CSS and
@@ -174,7 +174,8 @@ function MainScreen() {
                     href="https://simon-says-game-basic-qrr71xxnd-ayantik-sarkars-projects.vercel.app/"
                     target="_blank"
                   >
-                    <i className="fa-solid fa-square-arrow-up-right mr-1"></i>Show
+                    <i className="fa-solid fa-square-arrow-up-right mr-1"></i>
+                    Show
                   </a>
                 </button>
                 <button className="bg-black px-2 py-1 rounded-lg text-gray-400 cursor-pointer">
@@ -188,9 +189,7 @@ function MainScreen() {
               </div>
             </div>
             <div className="w-[18rem] h-fit bg-gray-400 rounded-2xl border-3 border-white flex flex-col items-center hover:scale-[1.04] duration-300">
-              <h1 className="p-2 text-[1.3rem] font-bold">
-                CommitList
-              </h1>
+              <h1 className="p-2 text-[1.3rem] font-bold">CommitList</h1>
               <img src={todolist} alt="" className="" />
               <p className="p-2 text-center font-semibold">
                 A todo list maker which includes authentication(login/signup)
@@ -217,9 +216,7 @@ function MainScreen() {
               </div>
             </div>
             <div className="w-[15rem] h-fit bg-gray-400 rounded-2xl border-3 border-white flex flex-col items-center hover:scale-[1.04] duration-300">
-              <h1 className="p-2 text-[1.3rem] font-bold">
-                Elimics
-              </h1>
+              <h1 className="p-2 text-[1.3rem] font-bold">Elimics</h1>
               <img src={elimics} alt="" className="" />
               <p className="p-2 text-center font-semibold">
                 This is a platform that I am collboratively developing along
@@ -290,6 +287,7 @@ function MainScreen() {
               type="submit"
               className="bg-gray-400 mt-3 rounded-lg font-consolas h-[2.3rem] font-bold cursor-pointer"
             >
+              <i className="fa-solid fa-paper-plane mr-3"></i>
               git commit -m your message
             </button>
             {msgSendSuccess && (
@@ -328,6 +326,14 @@ function MainScreen() {
               className="rounded-[1rem] w-[4rem] cursor-pointer socials"
             />
           </a>
+        </div>
+        <div className="text-gray-400 font-bold text-[2.5rem] mt-[-7rem] self-start ml-2">
+          <p className="ml-15">{"</body>"}</p>
+          <p>{"</html>"}</p>
+          <br />
+        </div>
+        <div className="text-gray-400 font-bold text-[2.5rem] ml-15">
+          {"</body>"}
         </div>
       </div>
       <footer className="w-full h-[3rem] bg-gray-400 bottom-0 fixed flex justify-center items-center border-t-4 border-white">
