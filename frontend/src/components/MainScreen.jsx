@@ -15,13 +15,13 @@ function MainScreen() {
           href="#about-me"
           className="font-semibold text-[1.1rem] hover:bg-black hover:text-gray-400 p-1 rounded duration-300 underline hover:no-underline"
         >
-          About Me
+          About
         </a>
         <a
           href="#my-skills"
           className="font-semibold text-[1.1rem] hover:bg-black hover:text-gray-400 p-1 rounded duration-300 underline hover:no-underline"
         >
-          My Skills
+          Skills
         </a>
         <a
           href="#projects"
@@ -92,6 +92,13 @@ function MainScreen() {
             </div>
             <div>
               <img
+                src="https://avatars.githubusercontent.com/u/7552965?s=280&v=4"
+                alt="mongo"
+                className="w-[5rem] hover:scale-[1.1] duration-300"
+              />
+            </div>
+            <div>
+              <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7S33Oq2FeRbyBBA6l1q8PwLVa3SzaONO-9Q&s"
                 alt="mongo"
                 className="w-[5rem] hover:scale-[1.1] duration-300 rounded-[1.2rem]"
@@ -141,11 +148,11 @@ function MainScreen() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center mx-5">
           <pre className="text-gray-400 text-[2rem] font-bold" id="projects">
             Projects
           </pre>
-          <div className="flex flex-wrap gap-[2rem] mt-6">
+          <div className="flex flex-wrap gap-[2rem] mt-6 justify-center">
             <div className="w-[15rem] h-fit bg-gray-400 rounded-2xl border-3 border-white flex flex-col justify-center items-center hover:scale-[1.04] duration-300">
               <h1 className="p-2 text-[1.3rem] font-bold">
                 Simon Says
@@ -317,7 +324,7 @@ function MainScreen() {
           </a>
         </div>
       </div>
-      <footer className="w-full h-[3rem] bg-gray-400 top-[92vh] fixed flex justify-center items-center">
+      <footer className="w-full h-[3rem] bg-gray-400 bottom-0 fixed flex justify-center items-center border-t-4 border-white">
         <pre>Made with ❤️ by Ayantik</pre>
       </footer>
     </div>

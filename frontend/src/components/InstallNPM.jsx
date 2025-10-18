@@ -14,7 +14,7 @@ export default function InstallNPM() {
       {isMainScreenVisible && (
         <>
           <div className="text-gray-400 font-semibold text-[1.4rem] mx-5">
-            <pre className="text-wrap">
+            <pre className="text-wrap text-center">
               You need to install the package ayantik-portfolio before
               continuing :)
             </pre>
@@ -46,6 +46,7 @@ export default function InstallNPM() {
 
           <form
             className="flex mt-10 border-2 border-gray-400 p-2"
+            id="npm-input"
             onSubmit={(e) => {
               e.preventDefault();
               const val = e.currentTarget[0].value.trim().toLowerCase();
@@ -67,13 +68,13 @@ export default function InstallNPM() {
                     "added 2 packages, and audited 175 packages in 1s\n35 packages are looking for funding\nrun `npm fund` for details\n\n"
                   );
                 }, 3000);
-                setShowMainScreen(true);
               }
             }}
           >
             <label
               htmlFor="npm-install-ayantik"
               className="text-gray-400 relative"
+              id="AS-label"
             >
               <pre>AS C:\Users\Ayantik Sarkar&gt;</pre>
             </label>

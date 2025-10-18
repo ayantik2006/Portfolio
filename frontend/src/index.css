@@ -65,8 +65,14 @@
       justify-content: center;
       align-items: center;
     }
-    #my-skills div{
-      /* margin-right: 3.5rem; */
+  }
+  @media (max-width:527px) {
+    #npm-input{
+      display: flex;
+      flex-direction: col;
+    }
+    #AS-label{
+      display: none;
     }
   }
 }
