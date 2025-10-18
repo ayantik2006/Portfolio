@@ -50,25 +50,25 @@ function MainScreen() {
             <pre className="mb-[-0.5rem]text-[2rem]">
               const <b>About</b> = {"{"}
             </pre>
-            <h1 className="font-bold text-[2rem] flex">
+            <h1 className="font-bold text-[2rem] flex hover:bg-black hover:text-gray-400 w-fit">
               <pre>name:</pre>"Ayantik Sarkar",
             </h1>
-            <pre className="font-semibold whitespace-pre-wrap break-words overflow-auto">
+            <pre className="font-semibold whitespace-pre-wrap break-words overflow-auto hover:bg-black hover:text-gray-400 w-fit">
               Institution: "National Institute of Technology, Rourkela
               (2025-Present)",
             </pre>
-            <pre className="whitespace-pre-wrap break-words overflow-auto">
+            <pre className="whitespace-pre-wrap break-words overflow-auto hover:bg-black hover:text-gray-400 w-fit">
               Skills: ["MongoDB", "ExpressJS", "NodeJS", "ReactJS",
               "tailwindcss", "MySQL", "Git & GitHub"],
             </pre>
-            <pre className="whitespace-pre-wrap break-words overflow-auto">
+            <pre className="whitespace-pre-wrap break-words overflow-auto hover:bg-black hover:text-gray-400 w-fit">
               Aspiration: "SDE roles in top companies",
             </pre>
-            <pre className="whitespace-pre-wrap break-words overflow-auto">
+            <pre className="whitespace-pre-wrap break-words overflow-auto hover:bg-black hover:text-gray-400 w-fit">
               Qualities: ["Constant learning attitude", "Not giving up on
               something"]
             </pre>
-            <pre className="whitespace-pre-wrap break-words overflow-auto">
+            <pre className="whitespace-pre-wrap break-words overflow-auto hover:bg-black hover:text-gray-400 w-fit">
               Education: {"{"}ClassX:"St. Xavier's School, Durgapur(2012-2023)",
               ClassXII:"Hem Sheela Model School(2023-25)"{"}"}
             </pre>
@@ -83,6 +83,9 @@ function MainScreen() {
             🛠️ My Skills!
           </pre>
           <div className="flex flex-wrap gap-[3rem] items-center justify-center">
+            <div className="text-gray-400 text-[6rem] mr-[-3rem]">
+              {"<"}
+            </div>
             <div>
               <img
                 src="https://images.icon-icons.com/2415/PNG/512/mongodb_original_wordmark_logo_icon_146425.png"
@@ -145,6 +148,9 @@ function MainScreen() {
                 alt="mongo"
                 className="w-[5rem] hover:scale-[1.1] duration-300 rounded-[1rem]"
               />
+            </div>
+            <div className="text-gray-400 text-[6rem] ml-[-2rem]">
+              {"/>"}
             </div>
           </div>
         </div>
