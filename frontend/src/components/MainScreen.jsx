@@ -10,7 +10,7 @@ function MainScreen() {
 
   return (
     <div className="min-w-screen min-h-screen bg-black flex-col items-center justify-center gap-5 scroll-smooth">
-      <nav className="w-full h-[4rem] bg-gray-400 fixed top-0 flex gap-7 items-center justify-center border-b-4 border-b-white">
+      <nav className="w-full h-[4rem] bg-gray-400 fixed top-0 flex gap-7 items-center justify-center border-b-4 border-b-white z-20">
         <a
           href="#about-me"
           className="font-semibold text-[1.1rem] hover:bg-black hover:text-gray-400 p-1 rounded duration-300 underline hover:no-underline"
@@ -146,7 +146,7 @@ function MainScreen() {
             Projects
           </pre>
           <div className="flex flex-wrap gap-[2rem] mt-6">
-            <div className="w-[15rem] h-fit bg-gray-400 rounded-2xl border-3 border-white flex flex-col justify-center items-center">
+            <div className="w-[15rem] h-fit bg-gray-400 rounded-2xl border-3 border-white flex flex-col justify-center items-center hover:scale-[1.04] duration-300">
               <h1 className="p-2 text-[1.3rem] font-bold">
                 Simon Says
               </h1>
@@ -161,7 +161,7 @@ function MainScreen() {
                     href="https://simon-says-game-basic-qrr71xxnd-ayantik-sarkars-projects.vercel.app/"
                     target="_blank"
                   >
-                    <i class="fa-solid fa-square-arrow-up-right mr-1"></i>Show
+                    <i className="fa-solid fa-square-arrow-up-right mr-1"></i>Show
                   </a>
                 </button>
                 <button className="bg-black px-2 py-1 rounded-lg text-gray-400 cursor-pointer">
@@ -174,7 +174,7 @@ function MainScreen() {
                 </button>
               </div>
             </div>
-            <div className="w-[18rem] h-fit bg-gray-400 rounded-2xl border-3 border-white flex flex-col items-center">
+            <div className="w-[18rem] h-fit bg-gray-400 rounded-2xl border-3 border-white flex flex-col items-center hover:scale-[1.04] duration-300">
               <h1 className="p-2 text-[1.3rem] font-bold">
                 CommitList
               </h1>
@@ -184,7 +184,7 @@ function MainScreen() {
                 for the user and features like add, edit and delete todo item,
                 shows last edited time and "task done" checkmark
               </p>
-              <div className="p-2 flex items-center justify-center gap-3">
+              <div className="p-2 flex items-center justify-center gap-3 ">
                 <button className="bg-black px-2 py-1 rounded-lg text-gray-400 cursor-pointer">
                   <a
                     href="https://commitlist-a-todo-list-project.onrender.com/"
@@ -203,9 +203,9 @@ function MainScreen() {
                 </button>
               </div>
             </div>
-            <div className="w-[15rem] h-fit bg-gray-400 rounded-2xl border-3 border-white flex flex-col items-center">
+            <div className="w-[15rem] h-fit bg-gray-400 rounded-2xl border-3 border-white flex flex-col items-center hover:scale-[1.04] duration-300">
               <h1 className="p-2 text-[1.3rem] font-bold">
-                Simon Says
+                Elimics
               </h1>
               <img src={elimics} alt="" className="" />
               <p className="p-2 text-center font-semibold">
