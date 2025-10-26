@@ -1,7 +1,8 @@
+import { useNavigate } from "react-router-dom";
 import Navbar from "./Navbar";
 import { Typewriter } from "react-simple-typewriter";
-
 function Home() {
+  const navigate=useNavigate();
   return (
     <div
       style={{
@@ -42,8 +43,10 @@ function Home() {
           <button className="bg-linear-65 from-purple-500 to-pink-500 px-10 py-1 rounded-[2rem] text-[1.5rem] hover:scale-[1.05] duration-200 font-semibold">
             Get Résumé
           </button>
-          <button className="px-8 py-1 rounded-[2rem] text-[1.5rem] hover:scale-[1.05] duration-200 border-pink-500 border-2 text-white font-semibold">
-            <a href="/contact">Contact Me!</a>
+          <button className="px-8 py-1 rounded-[2rem] text-[1.5rem] hover:scale-[1.05] duration-200 border-pink-500 border-2 text-white font-semibold" onClick={()=>{
+            navigate("/contact");
+          }}>
+            Contact Me!
           </button>
         </div>
       </div>
