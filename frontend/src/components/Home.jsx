@@ -41,7 +41,7 @@ function Home() {
         </div>
         <div className="flex gap-5 mt-[5rem]" id="intro-buttons">
           <button className="bg-linear-65 from-purple-500 to-pink-500 px-10 py-1 rounded-[2rem] text-[1.5rem] hover:scale-[1.05] duration-200 font-semibold">
-            Get Résumé
+            <a href="https://drive.google.com/file/d/1TmuYrMKZNFIZGZwdF0aLSo1ypNNkmlCT/view?usp=sharing" target="_blank">Get Résumé</a>
           </button>
           <button className="px-8 py-1 rounded-[2rem] text-[1.5rem] hover:scale-[1.05] duration-200 border-pink-500 border-2 text-white font-semibold" onClick={()=>{
             navigate("/contact");

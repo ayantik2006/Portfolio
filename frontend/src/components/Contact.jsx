@@ -98,7 +98,7 @@ function Contact() {
           </button>
         </form>
 
-        <h2 className="bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 bg-clip-text text-transparent animate-gradient mt-[3rem] font-bold text-[2rem]">Other Links</h2>
+        <h2 className="bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 bg-clip-text text-transparent animate-gradient mt-[0.6rem] font-bold text-[2rem]">Other Links</h2>
         <div className="flex gap-8 mt-3">
           <div>
             <a href="https://www.linkedin.com/in/ayantiksarkar/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" className="w-[3rem] hover:scale-[1.1] duration-200" /></a>
@@ -113,6 +113,12 @@ function Contact() {
             <a href="https://www.instagram.com/ayantik.sarkar"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEVWPUScCjZkmHdXQXLdWO2PjFfXwflb2l_Q&s" className="w-[3rem] hover:scale-[1.1] rounded duration-200" /></a>
           </div>
         </div>
+
+        <div className="flex flex-col mt-5 mb-5 gap-2 items-center">
+          <p className="flex items-center text-gray-400 text-[1.1rem] italic font-semibold hover:text-pink-600"><i className="fa-solid fa-envelope mt-[0.2rem]"></i>&nbsp;ayantik.sarkar2020@gmail.com</p>
+          <p className="flex items-center text-gray-400 text-[1.1rem] italic font-semibold hover:text-pink-600"><i className="fa-solid fa-phone mt-[0rem]"></i>&nbsp;7595882545</p>
+        </div>
+
       </div>
     </div>
   );
